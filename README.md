@@ -1,8 +1,8 @@
 # GitkeepCleaner
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/gitkeep_cleaner`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+不要な`.gitkeep`, `.keep`を削除するgem
+.gitkeepファイルがあるディレクトリにファイルがある場合は不要と判断して削除します。
+`node_modules`, `tmp`, `log`のディレクトリは無視します
 
 ## Installation
 
@@ -22,7 +22,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+gitkeep_cleaner clean
+```
 
 ## Development
 

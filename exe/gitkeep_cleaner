@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require "gitkeep_cleaner/cli"
+
+GitkeepCleaner::Cli.start
